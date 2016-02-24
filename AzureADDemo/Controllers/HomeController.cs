@@ -15,7 +15,7 @@ namespace AzureADDemo.Controllers
         [Authorize]
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application description page.-----Murugesan";
 
             return View();
         }
